@@ -1,0 +1,23 @@
+{
+  "name": "weather-rescue-subjects",
+  "version": "1.0.0",
+  "description": "Subject manifests for Weather Rescue Table",
+  "scripts": {
+    "start": "webpack --config webpack.dev.js --display-modules",
+    "build": "webpack --config webpack.prod.js --display-modules",
+    "test": "mocha --bail",
+    "deploy": "npm run build && npm test"
+  },
+  "author": "sktw",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.17.0",
+    "eslint-loader": "^1.9.0",
+    "mocha": "^5.0.0",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {},
+  "peerDependencies": {}
+}
