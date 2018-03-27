@@ -1,5 +1,5 @@
 var Utils = require('./utils');
-var columnSets = require('./columnSets');
+var ColumnSets = require('./columnSets');
 
 var locationSets = [
     {
@@ -28,5 +28,5 @@ var locationSets = [
     }
 ];
 
-var manifests = Utils.createManifests('1906', locationSets, columnSets);
+var manifests = Utils.createManifests('1906', locationSets, ColumnSets.ALL);
 module.exports = manifests;

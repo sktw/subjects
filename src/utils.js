@@ -53,13 +53,11 @@ function getColumnsTitle(columns) {
     }, []).join(' ');
 }
 
-function addColumnsTitle(columnSets) {
-    return columnSets.map(function(columns) {
-        return {
-            title: getColumnsTitle(columns),
-            columns: columns
-        };
-    });
+function addColumnsTitle(columns) {
+    return {
+        title: getColumnsTitle(columns),
+        columns: columns
+    };
 }
 
 function createManifests(year, locationSets, columnSets) {
