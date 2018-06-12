@@ -1,6 +1,6 @@
 {
   "name": "weather-rescue-subjects",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Subject manifests for Weather Rescue Table",
   "scripts": {
     "start": "webpack --config webpack.dev.js --display-modules",
